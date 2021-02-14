@@ -9,7 +9,7 @@ class Chassis {
         const float wheelDiameter = 2.8;     
         const int CPR = 1440;     
         const float wheelTrack = 5.75; 
-        const float errCoeff = 0.005;
+        const float errCoeff = 0.05;
 
     private:     
         Romi32U4Motors motors;     
